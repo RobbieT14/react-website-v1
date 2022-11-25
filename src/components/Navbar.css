@@ -19,6 +19,7 @@
 }
 
 .navbar-logo {
+  /* background: url('/images/UG_logo.jpg') center center/cover no-repeat; */
   color: #fff;
   justify-self: start;
   margin-left: 20px;
@@ -84,7 +85,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    /* height: 50vh; */
     position: absolute;
     top: 80px;
     left: -100%;
