@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src='/images/UG_logo.png' alt="UG logo" height ={50} />
+            <img src='/images/UG_logo.png' alt="UG logo" height ={30} />
             {/* <i class='fab fa-typo3' /> */}
             <></>
           </Link>
@@ -63,11 +63,11 @@ function Navbar() {
 
             <li>
               <Link
-                to='/shop'
+                to='/contact-us'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Shop
+                Contact Us
               </Link>
             </li>
           </ul>

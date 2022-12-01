@@ -13,7 +13,7 @@ function Cards() {
               src='images/cover4.jpg'
               text='Custom-tailored Car Covers'
               label='Product'
-              path='/services'
+              path='/products'
             />
             <CardItem
               src='images/car-garage.jpg'
@@ -33,13 +33,13 @@ function Cards() {
               src='images/ug_trackday.jpg'
               text='UG Track day'
               label='Product'
-              path='/products'
+              path='/lifestyle'
             />
             <CardItem
               src='images/automotive_parts.jpg'
               text='Automotive Parts'
               label='Product'
-              path='/sign-up'
+              path='/products'
             />
           </ul>
         </div>

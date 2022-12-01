@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
+      <div className='footer--pin'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join the newsletter to receive our best promo deals
@@ -25,44 +26,14 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-        {/* <div class='footer-link-items'>
-          <img src='/images/UG_logo.png' alt="UG logo" height ={25} />
-          <small class='website-rights'>UGMY © 2022</small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to={{pathname: 'https://www.facebook.com/ultimategaragemy'}}
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to={{pathname: 'https://www.instagram.com/ultimategaragemy/'}}
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to={{pathname: 'https://www.youtube.com/channel/UCOeMadoxpzUcN_hQNGyiuxw/featured'}}
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            </div>
-          </div> */}
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>SHOP</h2>
             <Link to='/shop'>Shop Car Covers</Link>
 
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>About</h2>
             <Link to='/'>About Us</Link>
             <Link to='/'>FAQ</Link>
@@ -71,11 +42,11 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Contact</h2>
-            <Link to='/'>Contact Us</Link>
+            <Link to='/contact-us'>Contact Us</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>LifeStyle</h2>
             <Link to='/'>Track Days</Link>
             <Link to='/'>Cars & Coffee</Link>
@@ -84,29 +55,29 @@ function Footer() {
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
             <img src='/images/UG_logo.png' alt="UG logo" height ={25} />
               
             </Link>
           </div>
-          <small class='website-rights'>UGMY © 2022</small>
-          <div class='social-icons'>
+          <small className='website-rights'>UGMY © 2022</small>
+          <div className='social-icons'>
             <Link
-              class='social-icon-link facebook'
+              className='social-icon-link facebook'
               to={{pathname: 'https://www.facebook.com/ultimategaragemy'}}
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <i className='fab fa-facebook-f' />
             </Link>
             <Link
-              class='social-icon-link instagram'
+              className='social-icon-link instagram'
               to={{pathname: 'https://www.instagram.com/ultimategaragemy/'}}
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i className='fab fa-instagram' />
             </Link>
             <Link
               class='social-icon-link youtube'
@@ -114,11 +85,12 @@ function Footer() {
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i className='fab fa-youtube' />
             </Link>
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 }
