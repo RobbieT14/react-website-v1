@@ -30,7 +30,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>SHOP</h2>
-            <Link to='/shop'>Shop Car Covers</Link>
+            <Link to='/'>Shop Car Covers</Link>
 
           </div>
           <div className='footer-link-items'>

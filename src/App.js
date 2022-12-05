@@ -7,11 +7,19 @@ import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import ContactUs from './components/pages/ContactUs';
 import Footer from './components/Footer';
+import ReactGA from 'react-ga';
+import ScrollToTop from './components/ScrollToTop';
+
+
+const TRACKING_ID = "UA-192097633-1"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop/>
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />

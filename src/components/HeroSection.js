@@ -7,16 +7,17 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       
-      <h1>VEHICLE STORAGE, CUSTOM CAR COVERS & AUTOMOTIVE PARTS</h1>
+      <h1>Vehicle Storage & Custom Car Covers</h1>
+      <h2>for Automotive Enthusiasts</h2>
       <p>Kuala Lumpur, Malaysia</p>
       <div className='hero-btns'>
-        <Button
+        {/* <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
           FIND OUT MORE
-        </Button>
+        </Button> */}
         <Button
           className='btns'
           buttonStyle='btn--primary'

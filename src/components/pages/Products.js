@@ -1,6 +1,16 @@
-import React from 'react';
+import React from 'react'
 import '../../App.css';
 
-export default function Products() {
-  return <h1 className='products'>PRODUCTS</h1>;
+const Products = () => {
+  return (
+    <div className='products'>
+    <div className='products-container'>
+      <h1>Products</h1>
+      <h6>Website under renovation, details will be added soon</h6>
+    </div>
+
+  </div>
+  )
 }
+
+export default Products
