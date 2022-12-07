@@ -95,6 +95,11 @@
     color: white;
   }
 
+.img-contain {
+  width: 400px;
+  height:200px;
+  object-fit: contain;
+}
 
 
   @media screen and (max-width: 820px) {
@@ -104,6 +109,16 @@
         flex-direction: column;
       }
 
+      .img-contain {
+        width: 250px;
+        height: 300px;
+        object-fit: contain;
+      }
+
+      .contactus-section h1 {
+        margin-bottom: 10px;
+        font-size: 1.8rem;
+      }
   }
 
 
@@ -115,5 +130,14 @@
         flex-direction: column;
       }
 
+      .img-contain {
+        width: 250px;
+        height: 300px;
+        object-fit: contain;
+      }
 
+      .contactus-section h1 {
+        margin-bottom: 10px;
+        font-size: 1.8rem;
+      }
   }

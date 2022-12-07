@@ -1,16 +1,16 @@
 import React from 'react';
 import '../../App.css';
-import ContactHeroSection from './ShopHero';
-import ContactSection from './ShopSection';
+import ShopHero from './ShopHero';
+import ShopSection from './ShopSection';
 
-import './ContactUs.css';
+import './Shop.css';
 
 
 function Shop() {
   return (
     <>
-      <ContactHeroSection/>
-      <ContactSection/>
+      <ShopHero/>
+      <ShopSection/>
     </>
     
   );
