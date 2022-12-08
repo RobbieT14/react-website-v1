@@ -129,7 +129,7 @@
 
       .shop-section h1 {
         margin-bottom: 10px;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
       }
 
       .shop-p {
@@ -137,6 +137,12 @@
         /* width: 200px; */
         text-align: left;
         margin-top: 15px;
+      }
+
+      .img-contain {
+        width: 50px;
+        height:80px;
+        object-fit: contain;
       }
   }
 
@@ -151,7 +157,7 @@
 
       .shop-section h1 {
         margin-bottom: 10px;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
       }
 
       .shop-p {
@@ -159,5 +165,11 @@
         /* width: 200px; */
         text-align: left;
         margin-top: 15px;
+      }
+
+      .img-contain {
+        width: 50px;
+        height:80px;
+        object-fit: contain;
       }
   }
