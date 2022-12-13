@@ -36,6 +36,9 @@ const ShopSection = () => {
                   <div className='column'>
                     <img src='/images/mastercard.png' alt="map location" className="img-contain" />
                   </div>
+                  <div className='column'>
+                    <img src='/images/grabpay.png' alt="map location" className="img-contain" />
+                  </div>
                 </div>
                 
                 

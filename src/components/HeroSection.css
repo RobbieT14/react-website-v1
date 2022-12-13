@@ -11,7 +11,7 @@ video {
   background-image: 
             linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
             url(
-              '/images/cover3.jpg');
+              '/images/main-cover2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -62,8 +62,28 @@ video {
 @media screen and (max-width: 960px) {
 
   .hero-container > h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     margin-top: -150px;
+  }
+
+  .hero-container > p {
+    font-size: 1.4rem;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .hero-container > h2 {
+    color: red;
+    font-size: 1.7rem;
+    /* font-family: Montserat; */
+    /* margin-top: -100px; */
   }
 }
 
@@ -74,7 +94,7 @@ video {
   }
 
   .hero-container > p {
-    font-size: 30px;
+    font-size: 1.4rem;
   }
 
   .btn-mobile {
@@ -84,5 +104,12 @@ video {
 
   .btn {
     width: 100%;
+  }
+
+  .hero-container > h2 {
+    color: red;
+    font-size: 1.7rem;
+    /* font-family: Montserat; */
+    /* margin-top: -100px; */
   }
 }

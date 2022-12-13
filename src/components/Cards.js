@@ -27,12 +27,12 @@ function Cards() {
               src='images/cars_coffee.jpg'
               text='UG Cars & Coffee'
               label='LifeStyle'
-              path='/services'
+              path='/lifestyle'
             />
             <CardItem
               src='images/ug_trackday.jpg'
               text='UG Track day'
-              label='Product'
+              label='LifeStyle'
               path='/lifestyle'
             />
             <CardItem
