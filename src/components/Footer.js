@@ -2,6 +2,13 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+
+
+function myFunction() {
+  alert("I am an alert box!");
+}
+
 
 function Footer() {
   return (
@@ -22,23 +29,26 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline' onclick="myFunction()">Subscribe</Button>
           </form>
+
+
+          
         </div>
       </section>
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>SHOP</h2>
-            <Link to='/'>Shop Car Covers</Link>
+            <Link to='/shop'>Shop Car Covers</Link>
 
           </div>
           <div className='footer-link-items'>
             <h2>About</h2>
             <Link to='/'>About Us</Link>
             <Link to='/'>FAQ</Link>
-            <Link to='/'>Products</Link>
-            <Link to='/'>Vehicle Storage</Link>
+            <Link to='/products'>Products</Link>
+            <Link to='/services'>Vehicle Storage</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -48,8 +58,8 @@ function Footer() {
           </div>
           <div className='footer-link-items'>
             <h2>LifeStyle</h2>
-            <Link to='/'>Track Days</Link>
-            <Link to='/'>Cars & Coffee</Link>
+            <Link to='/lifestyle'>Track Days</Link>
+            <Link to='/lifestyle'>Cars & Coffee</Link>
           </div>
         </div>
       </div>

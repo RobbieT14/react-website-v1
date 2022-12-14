@@ -43,7 +43,7 @@ const ContactSection = () => {
         <div class='contactus-item'>
                 <h4>ON THE MAP</h4>
                 <h1>OUR LOCATION</h1>
-                <img src='/images/map.png' alt="map location" className="img-contain" />
+                <img src='/images/map.png' alt="map location" height="auto" width="100%" />
                 <p>The Gamuda Biz Suites, Jalan Anggerik Vanilla 31/99, Kota Kemuning, 40460 Shah Alam, Selangor</p>
             </div>
     </div>

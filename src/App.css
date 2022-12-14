@@ -79,6 +79,41 @@
   }
 }
 
+
+.lifestyle {
+  background-image: url('/images/lifestyle-cover.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-size: 100px;
+  height: 70vh;
+}
+
+.lifestyle-container h1 {
+  text-align: center;
+}
+
+.lifestyle-container h6 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 820px) {
+
+
+  .lifestyle-container h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+  .lifestyle-container h6 {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
+
 .contactus {
   background-image: url('/images/ContactUs.png');
   background-position: center;
