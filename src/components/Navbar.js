@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
+import { ButtonShop } from './ButtonShop';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -62,15 +63,6 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/contact-us'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Contact Us
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
                 to='/lifestyle'
                 className='nav-links'
                 onClick={closeMobileMenu}
@@ -78,6 +70,16 @@ function Navbar() {
                 LifeStyle
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link
+                to='/contact-us'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Contact Us
+              </Link>
+            </li>
+
 
             <li>
               <Link
@@ -89,7 +91,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SHOP</Button>}
+          {button && <ButtonShop buttonStyle='btn--outline'>SHOP</ButtonShop>}
         </div>
       </nav>
     </>

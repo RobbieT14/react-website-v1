@@ -13,7 +13,8 @@ import ReactGA from 'react-ga';
 import ScrollToTop from './components/ScrollToTop';
 
 
-const TRACKING_ID = "UA-192097633-1"; // OUR_TRACKING_ID
+// const TRACKING_ID = "UA-192097633-1"; // OUR_TRACKING_ID
+const TRACKING_ID = "G-539R1TBZ50"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 
